@@ -40,3 +40,6 @@ Open a new terminal in the root of the project and run:
 Finally, with this **Python CLI application,** you can start different _Producers_ to send data to different topics. For example, start a send data to the topic “_room_2_”:
 
     python -m producers kafka --host localhost --port 9094 --topic room_2 --partition 0 --file-path ./data/room_1/temperature.csv
+
+
+### REF: https://andres-plazas.medium.com/a-python-kafka-producer-edafa7de879c
